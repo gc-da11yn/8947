@@ -1,0 +1,207 @@
+---
+title: Digital Accessibility Toolkit
+layout: layouts/base.njk
+description: Digital accessibility resources, tools, references and more for public servants, by public servants.
+needsTranslation: true
+---
+
+{# <div class="alert alert-info">
+<p>All links with this additional notes are marked with <i class="fas fa-comments mrgn-lft-sm" aria-hidden="true"></i><span class="wb-inv">additional notes</span></p>
+</div> #}
+
+
+
+<table class="table table-bordered table-striped wb-tables">
+<thead>
+		<tr>
+			<th>Browser / Reader</th>
+			<th>Browser</th>
+			<th>Screen reader mode</th>
+			<th>Play</th>
+			<th>Mute</th>
+			<th>Volume Slider</th>
+			<th>Progress bar</th>
+			<th>Closed captioning</th>
+			<th>Notes</th>
+		</tr>
+</thead>
+	<tbody>
+		<tr>
+			<td>Narrator</td>
+			<td>Edge</td>
+			<td>Normal</td>
+			<td>Looking for a Job button</td>
+			<td>Looking for a Job button off</td>
+			<td>slider 100</td>
+			<td>Current position:midnight / Total time:00:01:40</td>
+			<td>Looking for a Job button off</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Narrator</td>
+			<td>Chrome</td>
+			<td>Normal</td>
+			<td>Looking for a Job button PLAY</td>
+			<td>Lookin for a job button off</td>
+			<td>Looking for a job slider at 100</td>
+			<td>0% progress bar</td>
+			<td>looking for a job button off</td>
+			<td>These reports come from using narrator with scan on. When I tab through the controls, I get all of the exact same feedback, only someimes narrator says "suggestions available when I am tabing. Unlike firefox, I did not hit a focus trap on the volume control.</td>
+		</tr>
+		<tr>
+			<td>Narrator</td>
+			<td>Firefox</td>
+			<td>Normal</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job button play</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job button off mute</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job slider at 95 mute</td>
+			<td>49% progress bar</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job button off show closed captioning</td>
+			<td>These reports come from using the arrow keys in narrator with scan on. With scan off, focus got stuck on the volume slider and wouldn't move. When tabbing only the obligatory picture and picture message gets announced, not the control names.</td>
+		</tr>
+		<tr>
+			<td>JAWS</td>
+			<td>Edge</td>
+			<td>Normal</td>
+			<td>Looking for a Job button PLAY</td>
+			<td>Looking for a Job toggle button MUTE</td>
+			<td>Looking for a Job left right slider 95 Volume</td>
+			<td>NA - not in tab order</td>
+			<td>Looking for a Job toggle button show closed captioning</td>
+			<td>When tabbing through it seems like the volume control is made of two elements both receive tab focus and read slightly differently</td>
+		</tr>
+		<tr>
+			<td>JAWS</td>
+			<td>Edge</td>
+			<td>Reading</td>
+			<td>Looking for a Job button</td>
+			<td>Looking for a Job toggle button</td>
+			<td>Looking for a Job left right slider 95 Volume min 0 max 100</td>
+			<td>Current position:00:00:00 / Total time:00:01:40</td>
+			<td>Looking for a Job toggle button</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>JAWS</td>
+			<td>Chrome</td>
+			<td>Normal</td>
+			<td>Looking for a Job button PLAY</td>
+			<td>Looking for a Job toggle button MUTE</td>
+			<td>Looking for a Job left right slider 95 Volume</td>
+			<td>NA - not in tab order</td>
+			<td>Looking for a Job toggle button show closed captioning</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>JAWS</td>
+			<td>Chrome</td>
+			<td>Reading</td>
+			<td>Looking for a Job button</td>
+			<td>Looking for a Job toggle button</td>
+			<td>Looking for a Job left right slider 95 Volume min 0 max 100</td>
+			<td>Current position:00:00:00 / Total time:00:01:40</td>
+			<td>Looking for a Job toggle button</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>JAWS</td>
+			<td>Firefox</td>
+			<td>Normal</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job button</td>
+			<td>Mute toggle button</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job left right slider 100 Volume</td>
+			<td>Progress bar 39 percent</td>
+			<td>Show closed captioning Toggle button</td>
+			<td>Jaws did not announce play for the play button no matter what I tried.</td>
+		</tr>
+		<tr>
+			<td>NVDA</td>
+			<td>Edge</td>
+			<td>Normal</td>
+			<td>Looking for a Job button PLAY</td>
+			<td>Looking for a Job toggle button MUTE</td>
+			<td>Looking for a Job left right slider 100 Volume</td>
+			<td>progress bar half checked</td>
+			<td>Looking for a Job toggle button not pressed show closed captioning</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>NVDA</td>
+			<td>Edge</td>
+			<td>Reading</td>
+			<td>button Looking for a Job</td>
+			<td>toggle button Looking for a Job</td>
+			<td>slider 100</td>
+			<td>Current position:00:00:00 / Total time:00:01:40</td>
+			<td>toggle button Looking for a Job</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>NVDA</td>
+			<td>Chrome</td>
+			<td>Normal</td>
+			<td>Looking for a Job button PLAY</td>
+			<td>Looking for a Job toggle button not pressed MUTE</td>
+			<td>Looking for a Job left right slider 100 Volume</td>
+			<td>progress bar half checked</td>
+			<td>Looking for a Job toggle button not pressed show closed captioning</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>NVDA</td>
+			<td>Chrome</td>
+			<td>Reading</td>
+			<td>button Looking for a Job</td>
+			<td>toggle button Looking for a Job</td>
+			<td>slider 100</td>
+			<td>Current position:00:00:00 / Total time:00:01:40</td>
+			<td>toggle button not pressed Looking for a Job</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>NVDA</td>
+			<td>Firefox</td>
+			<td>Normal</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job ￼ button play</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job ￼ toggle button not pressed mute</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job ￼ slider 95 volume</td>
+			<td>Progress bar 44.9%</td>
+			<td>Watch in Picture-in-Picture Play videos in the foreground while you do other things in Firefox Looking for a Job ￼ Toggle button not pressed show closed captioning</td>
+			<td>You have to be tabbing to get the actual control labels such as play, mute, and volume. In browse mode, only the picture and picture stuff gets announced by nvda using the arrow keys.</td>
+		</tr>
+		<tr>
+			<td>VoiceOver in MacOS</td>
+			<td>Safari</td>
+			<td>Normal</td>
+			<td>looking for a job button play</td>
+			<td>looking for a job toggle button mute</td>
+			<td>100, looking for a job slider volume</td>
+			<td>0% progress indicator</td>
+			<td>looking for a job toggle button show closed captioning</td>
+			<td>I got the same feedback here whether using tab or using voiceover navigation</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>VoiceOver in iOS</td>
+			<td>Safari</td>
+			<td>Normal</td>
+			<td>looking for a job button play</td>
+			<td>looking for a job toggle button not pressed mute</td>
+			<td>Looking for a job 100% adjustable volume</td>
+			<td>0</td>
+			<td>looking for a job toggle button not pressed show closed captioning</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Talk Back with Chrome</td>
+			<td>Chrome</td>
+			<td>Normal</td>
+			<td>looking for a job button play</td>
+			<td>looking for a job off toggle button mute</td>
+			<td>100% 100 looking for a job slider volume</td>
+			<td>0% progress indicator</td>
+			<td>looking for a job off toggle button show closed captioning</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
