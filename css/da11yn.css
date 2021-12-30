@@ -36,7 +36,7 @@
 .home {
   background: no-repeat center center;
   background-size: cover;
-  background-image: url("../img/banner.png");
+  background-image: url("https://github.com/gc-da11yn/gc-da11yn.github.io/img/banner.png");
   margin-bottom: 25px;
 }
 .home .gctheme.well.header-rwd {
